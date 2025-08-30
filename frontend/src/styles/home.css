@@ -1,0 +1,109 @@
+.home {
+  text-align: center;
+  padding: 6rem 1rem;
+  background: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+/* Hero Title */
+.home h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.home h1 .icon {
+  font-size: 3rem;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.home .tagline {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* CTA Button */
+.home .btn {
+  padding: 1rem 2rem;
+  background: #ffffff;
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.2);
+}
+
+.home .btn:hover {
+  background: #dddddd;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+}
+
+/* About Section */
+.about-tool {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-tool h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-tool p {
+  color: #bbbbbb;
+  line-height: 1.7;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  width: 250px;
+  text-align: center;
+  border: 1px solid #333;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  background: #222222;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.feature-card p {
+  color: #cccccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}

@@ -1,0 +1,44 @@
+/* 🌍 Reset & Typography */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000000 !important; /* Full black background */
+  color: #ffffff; /* Default text color white */
+}
+
+/* Layout helpers */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.section {
+  padding: 4rem 1rem;
+}
+
+/* Main content wrapper */
+.main-content {
+  min-height: 80vh;
+  padding: 2rem 1rem;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}

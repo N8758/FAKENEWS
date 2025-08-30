@@ -1,0 +1,98 @@
+.predict {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #1e1e1e;   /* Dark gray card for contrast */
+  color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.08);
+}
+
+/* Heading */
+.predict h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Textarea */
+.predict textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #333;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background: #111111;
+  margin-bottom: 1rem;
+  resize: vertical;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.predict textarea:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
+  outline: none;
+}
+
+/* Button */
+.predict button {
+  width: 100%;
+  padding: 0.9rem;
+  background: #ffffff;
+  color: #000000;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.predict button:hover {
+  background: #dddddd;
+  transform: translateY(-2px);
+}
+
+.predict button:disabled {
+  background: #555;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Error message */
+.error {
+  margin-top: 1rem;
+  color: #ff4d4d;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Result card */
+.result-card {
+  background: #111111;
+  border: 1px solid #333;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.result-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.label.fake {
+  color: #ff4d4d; /* Red for fake */
+}
+
+.label.real {
+  color: #4ade80; /* Green for real */
+}
