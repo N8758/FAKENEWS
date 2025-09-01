@@ -5,11 +5,11 @@ gunicorn==21.2.0
 
 # HuggingFace + ML
 transformers==4.41.2
-torch==2.5.1
+torch==2.2.2          
 scikit-learn==1.5.0
 numpy==1.26.4
-pandas==2.2.3
-tokenizers==0.19.1   
+pandas==2.2.2          
+tokenizers==0.19.1     
 
 # Environment + logging
 python-dotenv==1.0.1
