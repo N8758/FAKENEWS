@@ -1,13 +1,14 @@
+# Backend Framework
 fastapi==0.110.0
 uvicorn[standard]==0.29.0
 gunicorn==21.2.0
 
 # HuggingFace + ML
-transformers==4.41.2  
+transformers==4.41.2
 torch==2.5.1
 scikit-learn==1.5.0
 numpy==1.26.4
-pandas==2.2.2
+pandas==2.2.3   
 
 # Environment + logging
 python-dotenv==1.0.1
